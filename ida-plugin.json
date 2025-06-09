@@ -1,0 +1,11 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "Objective-C helper",
+    "entryPoint": "objc-helper.py",
+    "categories": ["decompilation", "api-scripting-and-automation"],
+    "idaVersions": "8.4",
+    "description" : "This plugin helps you reverse engineer Objective-C code by cleaning up decompilation output and allowing faster navigation across method calls.",
+    "version": "1.0.0"
+  }
+}
