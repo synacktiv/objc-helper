@@ -1,12 +1,19 @@
 Objective-C helper
 ==================
 
+**This plugin has currently only been tested on IDA 8.4**.
+
 # Presentation
 
 This IDA plugin helps you reverse-engineer Objective-C code. The main feature
 is a decompiler hook cleaning up the pseudocode output, mainly removing
 superfluous Objective-C runtime calls related to ARC (Automatic Reference
 Couting) automatically added by the compiler.
+
+Feel free to ask for features if you think they are filling a common use-case.
+
+This is not a final version, more features will be added in the future. Stay
+tuned!
 
 # Decompiler output cleanup
 
